@@ -49,9 +49,7 @@ sudo apt install g++ xterm
 git clone https://github.com/yourusername/nexus-os.git
 cd nexus-os
 
-# Build
-make
-# or manually
+# manually
 g++ os.cpp -o NEXUS -lpthread
 ```
 
@@ -66,7 +64,7 @@ g++ os.cpp -o NEXUS -lpthread
 ./NEXUS 2 256 8
 ```
 
-NEXUS boots with a loading animation, then shows a task menu. Select any task to launch it in a new xterm window. Press `K` for Kernel Mode to manage running processes. Press `0` to shut down.
+NEXUS boots with a loading animation, then shows a task menu. Select any task to launch it in a new xterm window. Press `21` for Kernel Mode to manage running processes. Press `0` to shut down.
 
 ---
 
