@@ -76,11 +76,11 @@ nexus-os/
 │   ├── boot.png
 │   └── menu.png
 ├── os.cpp
-├── process.cpp / .h
-├── resource_manager.cpp / .h
+├── config.h
+├── process.h
+├── resource.cpp / .h
 ├── kernel.cpp / .h
 ├── ready_queue.cpp / .h
-├── round_robin_scheduler.cpp / .h
-├── multilevel_queue_scheduler.cpp / .h
+├── scheduler.cpp / .h
 └── tasks/                           # 20 separate task binaries
 ```
