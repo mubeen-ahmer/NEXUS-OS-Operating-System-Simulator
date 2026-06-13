@@ -225,9 +225,7 @@ void kernelModeMenu() {
         cout << "╔══════════════════════════════╗" << endl;
         cout << "║       *** KERNEL MODE ***    ║" << endl;
         cout << "╚══════════════════════════════╝" << endl;
-        pthread_mutex_lock(&gMutex);
-        // printStatus();
-        pthread_mutex_unlock(&gMutex);
+        printStatus();
         cout << endl;
         cout << "1. List all processes"    << endl;
         cout << "2. Kill process  (SIGKILL)" << endl;
