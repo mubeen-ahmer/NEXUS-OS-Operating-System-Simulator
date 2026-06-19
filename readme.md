@@ -46,8 +46,8 @@ This was my OS Lab final project at FAST NUCES. I wanted to go beyond theory and
 sudo apt install g++ xterm
 
 # Clone the repo
-git clone https://github.com/yourusername/nexus-os.git
-cd nexus-os
+git clone https://github.com/mubeen-ahmer/NEXUS-OS-Operating-System-Simulator.git
+cd NEXUS-OS-Operating-System-Simulator
 
 # manually
 g++ os.cpp -o NEXUS -lpthread
